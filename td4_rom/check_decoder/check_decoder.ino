@@ -12,6 +12,10 @@ unsigned char rom[] = {
   B10110000, // OUT Im
   B11100000, // JNC(C=0 or C=1)
   B11110000, // JMP
+  B11110000,
+  B11110000,
+  B11110000,
+  B11110000,
 };
 
 void setup() {
